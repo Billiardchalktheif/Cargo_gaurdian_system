@@ -15,6 +15,7 @@ ESP32 기반 센서 모듈이 화물의 기울기 변화율(MPU6050), 래싱벨�
 ```
 firmware/           하드웨어(ESP32/Arduino) 코드
   cargo_guardian_code_v6.ino   최신 버전
+  cargo_guardian_code_v7.ino   장력센서의 Fail-Safe 로직 추가 버전
   legacy/                       이전 버전 (v1~v5, ESP32 초기 버전)
 python/            센서 데이터 수신·저장 및 분석용 파이썬 스크립트
 data/실험데이터/     주행 시나리오별 센서 실험 원본 데이터 (xlsx)
@@ -24,7 +25,7 @@ docs/images/       센서/시계열 데이터 분석 결과 이미지
 
 ## 하드웨어 코드
 
-- **최신판**: [firmware/cargo_guardian_code_v6.ino](firmware/cargo_guardian_code_v6.ino)
+- **최신판**: [firmware/cargo_guardian_code_v7.ino](firmware/cargo_guardian_code_v7.ino)
 - 이전 버전은 [firmware/legacy](firmware/legacy)에 참고용으로 보관
 
 ## 실험 데이터
